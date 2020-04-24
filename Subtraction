@@ -64,7 +64,7 @@ int main()
   {
     client=accept(server,(struct sockaddr*)&caddr,&len);
     recv(client,d1,10,0);
-    recv(clien,d2,10,0);
+    recv(client,d2,10,0);
     
     d3=atoi(d1)-atoi(d2);
     sprintf(d4,"Result is:%d",d3);
