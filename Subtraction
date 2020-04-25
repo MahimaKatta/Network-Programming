@@ -32,8 +32,6 @@ int main()
   recv(client,d3,30,0);
   printf(d3);
   
-  return 0;
-  
 }
 
 
